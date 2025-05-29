@@ -7,7 +7,7 @@ router.get('/create-order', (req, res) => {
 })
 
 router.get('/success', (req, res) => {
-    res.send('success order');
+    res.send('success');
 })
 
 router.get('/webhook', (req, res) => {
